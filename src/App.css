@@ -1,0 +1,50 @@
+*{
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #686868;
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  width: 100vw;
+}
+
+.cabecalho img {
+  height: 30px;
+}
+
+.cabecalho h1 {
+  margin: 0;
+  font-size: 18px;
+}
+
+
+.senai {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+ /*foto do senai*/
+
+.Clubs{
+  display: flex;
+}
+
+.clubsstyle{
+  list-style: none;
+  
+}
+
+
+@media (max-width: 850px) {
+  .cabecalho {
+      flex-direction: column;
+      text-align: center;
+  }
+
+}
+/*Responsivo/* 
